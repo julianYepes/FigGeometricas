@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                     case 4:
                         if( !eMedida1.getText().toString().equals("") ){
                             medida1 = Double.parseDouble( eMedida1.getText().toString() );
-                            area=medida1*medida2*medida1;
+                            area=medida1*medida1*medida1;
                             tResultado.setText("Volumen="+area.toString() );
                         }else{
                             Toast.makeText(getApplicationContext(),"Ingrese lado", Toast.LENGTH_SHORT).show();
